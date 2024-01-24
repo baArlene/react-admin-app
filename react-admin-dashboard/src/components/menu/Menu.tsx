@@ -1,10 +1,34 @@
-import './menu.scss'
-
+import { Link } from "react-router-dom";
+import "./menu.scss";
 
 const Menu = () => {
   return (
-    <div className='menu'>menu</div>
-  )
-}
+    <div className="menu">
+      <div className="item">
+        <span className="title">MAIN</span>
+        <Link to='/' className='listItem'>
+          <img src="/home.svg" alt="" />
+          <span className="listItemtitle">Home</span>
+        </Link>
+        <Link to='/' className='listItem'>
+          <img src="/profile.svg" alt="" />
+          <span className="listItemtitle">Profile</span>
+        </Link>
+      </div>
 
-export default Menu
+      <div className="item">
+        <span className="title">MAIN</span>
+        <Link to='/' className='listItem'>
+          <img src="/home.svg" alt="" />
+          <span className="listItemtitle">Home</span>
+        </Link>
+        <Link to='/' className='listItem'>
+          <img src="/profile.svg" alt="" />
+          <span className="listItemtitle">Profile</span>
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default Menu;
