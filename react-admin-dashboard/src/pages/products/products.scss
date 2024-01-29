@@ -1,1 +1,21 @@
-.products {}
+.products {
+    width: 100%;
+    height: auto;
+
+
+    .info{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+
+
+        button{
+            padding: 5px;
+            cursor: pointer;
+            background-color: orangered;
+            color: white;
+            border-radius: 5px;
+        }
+    }
+}
