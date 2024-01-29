@@ -5,7 +5,7 @@ import { userRows } from '../../data';
 
 
 const columns: GridColDef[] = [
-  { field: "id", headerName: "ID", width: 90 },
+  { field: "id", headerName: "ID", width: 60 },
   {
     field: "img",
     headerName: "Avatar",
@@ -18,13 +18,13 @@ const columns: GridColDef[] = [
     field: "firstName",
     type: "string",
     headerName: "First name",
-    width: 150,
+    width: 100,
   },
   {
     field: "lastName",
     type: "string",
     headerName: "Last name",
-    width: 150,
+    width: 100,
   },
   {
     field: "email",
@@ -36,18 +36,18 @@ const columns: GridColDef[] = [
     field: "phone",
     type: "string",
     headerName: "Phone",
-    width: 200,
+    width: 100,
   },
   {
     field: "createdAt",
     headerName: "Created At",
-    width: 200,
+    width: 100,
     type: "string",
   },
   {
     field: "verified",
     headerName: "Verified",
-    width: 150,
+    width: 100,
     type: "boolean",
   },
 ];
