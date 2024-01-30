@@ -88,8 +88,10 @@ const Single = () => {
         <hr />
 
         <div className="chart">
-          <ResponsiveContainer width="99%" height="100%">
+          <ResponsiveContainer width="100%" height="100%">
             <LineChart
+            width={500}
+            height={300}
               data={data}
               margin={{
                 top: 5,
@@ -140,6 +142,19 @@ const Single = () => {
               <time>3 Days ago</time>
             </div>
           </li>
+          <li>
+            <div>
+              <p>John Doe purchased Playstation 5 Digital Edition</p>
+              <time>3 Days ago</time>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>John Doe purchased Playstation 5 Digital Edition</p>
+              <time>3 Days ago</time>
+            </div>
+          </li>
+          
         </ul>
       </div>
     </div>
